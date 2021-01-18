@@ -1,0 +1,477 @@
+/*==================================================================
+							resusable
+==================================================================*/
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.row {
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+.row2{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+label{
+	color: #fff;
+	margin-top: 5px;
+}
+
+.resusable-kontakt h1{
+	color: #fff;
+	font-size: 30px;
+    text-decoration: underline;
+}
+
+.resusable-kontakt p{
+	color: #fff;
+	font-size: 21px;
+	margin-top: 5px;
+}
+
+
+
+/*==================================================================
+							index-php
+==================================================================*/
+
+.nav-background{
+    background: black;
+    height: 92px;
+}
+
+#menu1 a {
+color:#ffffff;
+font-weight:bolder;
+text-decoration:none;
+text-transform:uppercase;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#menu1 ul li ul {
+display:none;
+}
+
+
+#menu1 ul li {
+float:left;
+list-style:none;
+width:224px;
+height:40px;
+background:#000;
+text-align:center;
+padding-top:12px;
+border-right: 2px solid transparent;
+position: relative;
+}
+
+
+#menu1 ul li:hover {
+background: #466A7F;
+text-align:center;
+}
+
+
+#menu1 ul ul {
+margin-top:10px;
+}
+
+#menu1 ul li ul li {
+margin-left:-40px;
+}
+
+#menu1 ul li ul li ul li{
+	position: relative;
+	margin-left: 186px;
+	border: 1px solid transparent;
+}
+
+#menu1 ul li:hover > ul {display:block;}
+#menu1 ul li ul li {background: #000;}
+#menu1 ul li ul li:hover {background: #466A7F;
+}
+
+.oddeleni{
+	margin-top: -42px;
+}
+
+.slider img {
+    max-width: 100%;
+    height: auto;
+}
+
+.jedna {
+    font-size: 54px;
+    border: 1px solid transparent;
+    width: 500px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 360px;
+}
+
+.uvod h2{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.uvod p:nth-child(1){
+    background: rgba(255 204 0);
+    color: black;
+}
+
+.sluzby h1 {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.index-h2{
+	color: #fff;
+	font-size: 28px;
+}
+
+.index p{
+	color: #fff;
+	font-size: 21px;
+}
+
+.btn{
+    text-align: center;
+    border: 1px solid transparent;
+    background: #FFCC00;
+    padding: 12px 0px 12px 0px;
+    width: 270px;
+    margin: 0px auto;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+    border-radius: 5px;
+	color: #000;
+	text-decoration: none;
+}
+
+.sluzby a {
+    color: black;
+}
+
+.vykon h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.vykon_info{
+    margin-top: 40px;
+}
+
+.vykon_info img{
+    max-width: 50%;
+    margin-left: 20%
+}
+
+.vykon_info h2{
+    margin-top: 15%;
+}
+
+.vykon_info img:nth-child(1){
+    background: rgba(255 244 0);
+    width: 100%;
+    height: 209px;
+}
+
+.btn2{
+    text-align: center;
+    border: 1px solid transparent;
+    background: #FFCC00;
+    padding: 12px 0px 12px 0px;
+    width: 270px;
+    margin: 0px auto;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+
+input[type="text"],
+input[type="email"]{
+    font-size: 15px;
+    padding: 10px;
+    width: 75%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/*===================================================================
+                          nase_sluzby.html
+===================================================================*/
+
+.btn2 {
+    float: left;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.menu2 a{
+    vertical-align: middle;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.center{
+    position: relative;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+}
+
+.prace h1{
+	font-weight: bolder;
+	font-size: 40px;
+	text-decoration: underline
+}
+
+.prace ul li a{
+	color: #fff;
+	margin-top: 10px;
+}
+
+.prace ul li{
+	color: #fff;
+	margin-top: 5px;
+}
+
+.kontakt{
+	margin-top: 30px;
+}
+
+/*===================================================================
+							myti-fasad.html
+==================================================================*/
+
+.cena h1{
+	font-size: 61px;
+	text-align: center;
+	color: #fff;
+}
+
+.cena h2{
+	color: #FFCC00;
+	font-size: 48px;
+}
+
+.cena p{
+	color: #fff;
+	text-decoration: none;
+	font-size: 21px;
+}
+
+.btn{
+	cursor: pointer;
+}
+
+.btn p a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+/*==================================================================
+							nater-fasad.php
+==================================================================*/
+
+.nabidka h1{
+	font-size: 61px;
+	text-align: center;
+	color: #fff;
+}
+
+.nabidka h2{
+	color: #FFCC00;
+	font-size: 48px;
+}
+
+#nater{
+	color: #fff;
+	font-size: 21px;
+}
+
+.nabidka ul li a{
+	color: #FFCC00;
+}
+
+#nater{
+	text-align: justify;
+}
+.nabidka ul li{
+	color: #fff;
+	margin-top: 5px;
+	font-size: 21px;
+}
+
+.foto img{
+	max-width: 100%;
+}
+
+/*==================================================================
+							cisteni-fasad.php
+==================================================================*/
+
+.nadpis h1{
+	color: #fff;
+	font-size: 61px;
+	text-align: center;
+}
+
+.nadpis p,
+.obsah p{
+	color: #fff;
+	font-size: 21px;
+}
+
+.obsah h2{
+	color: #FFCC00;
+	font-size: 48px;
+}
+
+.obsah ul li{
+	color: #fff;
+	margin-top: 5px;
+	font-size: 21px;
+}
+
+/*==================================================================
+							cisteni-strech.php
+==================================================================*/
+
+.cs-nadpis h1{
+	color: #fff;
+	font-size: 61px;
+	text-align: center;
+}
+
+.upoutavka{
+	font-size: 25px;
+	font-weight: bolder;
+	color: #fff;
+	text-align: center;
+}
+
+.ostatni{
+	font-size: 21px;
+	color: #fff;
+}
+
+.cs-polozky h2{
+	color: #FFCC00;
+	font-size: 48px;
+}
+.cs-polozky ul li{
+	color: #fff;
+	font-size: 21px;
+	margin-top: 5px;
+}
+
+/*==================================================================
+							nater-strech.php
+==================================================================*/
+
+.ns-nadpis h1{
+	color: #fff;
+	font-size: 61px;
+	text-align: center;
+}
+
+.ns-upotavka{
+	color: #fff;
+	font-size: 21px;
+	text-align: justify;
+}
+
+.ns-polozky h2{
+	color: #FFCC00;
+	font-size: 48px;
+}
+
+.ns-polozky ul li{
+	color: #fff;
+	font-size: 21px;
+	margin-top: 5px;
+}
+
+/*==================================================================
+							cisteni-zamkove.php
+==================================================================*/
+
+.cz-nadpis h1{
+	color: #fff;
+	font-size: 61px;
+	text-align: center;
+}
+
+.cz-nadpis p{
+	color: #fff;
+	font-size: 21px;
+}
+
+.cz-polozky h2{
+	color: #FFCC00;
+	font-size: 48px;
+}
+
+.cz-polozky ul li{
+	color: #fff;
+	font-size: 21px;
+	margin-top: 5px;
+}
+
+/*==================================================================
+							kontakt-form.php
+==================================================================*/
+
+.kontakt-form{
+	margin-top: 150px;
+}
+
+/*===================================================================
+nase-sluzby.php
+===================================================================*/
+
+.sezonni-prace h1,
+.provadime h1,
+.zimni-prace h1{
+	color: #fff;
+	font-size: 31px;
+}
+
+.sezonni-prace ul li,
+.provadime ul li,
+.zimni-prace ul li{
+	color: #fff;
+	font-size: 21px;
+}
+
+.sezonni-prace ul li a,
+.provadime ul li a,
+.zimni-prace ul li a{
+	text-decoration: none;
+}
+
+
